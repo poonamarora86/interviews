@@ -65,8 +65,36 @@ After reviewing the existing model, I found a few issues with the choice of the 
 It turned out, I could build the new model with better accuracy within that period and disagreement got resolved there. We went ahead with the new model which was significantly better than old as well as it could run on Spark meaning it was very scalable too. Model helped cards team to predict and understand offus spend and improved cards team's ability to increase on-us-spend.   
 
 
+## 
 
+### Mortgage - Post maturity Retention
 
+* Situation
 
+To understand the post maturity behavior in mortgage customers and to increase the proportion of follow-on population which was declining in past decade. Generally follow on rate is higher than on fixed, it was costing significant losses to the bank, to give you a bit more insight, if we have increased the proportion of follow on population by mere 1%, the business can gain approximately 500k-800K per month (please note that these numbers are fabricated and to protect the privacy of the bank, I cannot reveal the actual numbers)
 
+* Task 
 
+Task can be divided into two:
+1. Predict whether a customer will go on follow on or not based on certain attributes
+2. To identify which attributes plays a pivotal role in the decision making process
+
+* Actions
+
+For first task , we needed a classifier which could predict whether a customer will go on follow on or not with probabiliy and for second we built a tool which will let the user twaek some of the parameters to see the change in proportion of follow on population.
+
+  1. Data collection: All customers who finished their fixed product in a certain time interval. We excluded all those who never finished a fixed period and left us or are still running on fixed product.
+
+  2. Features: We took around 16-17 features including (but not limited to) balance, LTV, original and current rate, follow on rate, payment shock, tenure etc.
+
+  3. Modeling approach: since the main task is to predict whether a customer will go on follow on or not, it became a good candidate for classification. I tried multiple classification algorithms to test the results. One major complexity was involving the imbalanced class distribution as customer choosing for follow on are relatively very less so I had to modify the data to handle the bias. 
+
+  4. Model development: I tried around 5-6 algorithms to test the results on different time periods and found xgboost as the most efficient(in terms of time taken and memory consumption) and most consistent with change in time period and new customers.
+
+  5. Evaluation: Model was trained on 2 years of data and tested in time as well as out of time dataset. Beside this the results were also validated against manual solution produced by domain experts.
+
+* Result
+  Output had two components, 
+  1. A table which was generated as an output of the model consisting a binary flag identifying whether a customer will stay on follow on or not along with the probability 
+  2. A tool which would allow the user to twaek the follow on rate to see the change in follow on rate (individually as well in group)
+  3. A dashboard is also generated which will give some insights on the drivers impacting a customer decision like payment shock 
