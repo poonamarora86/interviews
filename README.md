@@ -44,6 +44,26 @@ After that, I also wanted to help others to go through this program to improve d
 
 This not only helped me dig deeper in the data science techniques, practices, improved my mentorship and interpersonal skills but my involvement also helped several other people to upskill their data science knowledge. This in turn helped Barclays business because all these people now will apply these techniques to solve (or improve existing solutions) to their respective business verticals.
 
+## problem solving, challenging decision of others
+
+### Barclays cards off us model
+
+* Situation
+
+At the time when I was working in the central team of data science. Barclays cards team had an off-us spend model that wasn't performing aptly. This was important to work because this model could help Cards team to understand reasons for customers using non Barclays cards and help strategising converting those customers into spending on barclays card.
+
+* Task
+
+I was brought on the team to improve and productionise the model. 
+
+* Action
+
+After reviewing the existing model, I found a few issues with the choice of the model plus had reservations about its scale. When I discussed with the cards project lead, their stance was that we should try to fix the existing model to make it work. In my opinion this was not the right thing to do. The reason for push back was mainly that efforts to build a new model could put the project into risk, which was a reasonable argument. My position was given the data is already prepared and we can re-use the pipeline and we understand the limitation of the existing model, a quick experiment wouldn't be time consuming. So I argued and agreed with project lead to plan for 2 week experiment with new model. 
+
+* Result
+
+It turned out, I could build the new model with better accuracy within that period and disagreement got resolved there. We went ahead with the new model which was significantly better than old as well as it could run on Spark meaning it was very scalable too. Model helped cards team to predict and understand offus spend and improved cards team's ability to increase on-us-spend.   
+
 
 
 
