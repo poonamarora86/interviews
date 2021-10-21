@@ -98,3 +98,30 @@ For first task , we needed a classifier which could predict whether a customer w
   1. A table which was generated as an output of the model consisting a binary flag identifying whether a customer will stay on follow on or not along with the probability 
   2. A tool which would allow the user to twaek the follow on rate to see the change in follow on rate (individually as well in group)
   3. A dashboard is also generated which will give some insights on the drivers impacting a customer decision like payment shock 
+
+
+  ### Eero upsell
+
+ * Situation
+UW launched a new product which could provide great network connectivity in the households. Our first audience for this product were our existing broadband customers.
+In our first rue based marketing campaign, we reached approximately 1% upsell 
+
+
+* Task
+
+DS team was invited to help increase the upsell
+
+* Actions
+
+1. We pulled demograhic, property, internet and technology usage and behavioral features for our customer based features for our existing custoemr base
+2. We used the success events from first marketing campaign as our source population and  mapped them against rest of the population
+3. Used a distance based algorithm which could quantify similarity between two customers and ranked them on their similarity 
+4. Provided first set of ranked customers to the marketing team to launch another reachout campaign
+
+* Results
+
+1. We reached 3.4% upsell in our 2nd DS based marketing event
+2. This led the team a automated pipeline which will feed into the marketing databse with most eleigible population
+3. In future, we will be genralising the pipeline for multiple use cases
+
+
