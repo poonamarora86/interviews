@@ -124,3 +124,70 @@ DS team was invited to help increase the upsell
 2. This led the team a automated pipeline which will feed into the marketing databse with most eleigible population
 3. In future, we will be generalising the pipeline for multiple use cases
 
+
+## stakeholder management
+1. Short feedback loop used in mortgages project, talking about updates in an interval of one or two weeks where we discussed the progress made along with the future steps. Inquired about stakeholder inputs and accommodate new requirements if possible. 
+2. Another thing to keep informing the stakeholder about the scope of the project so they don't create any unrealistic expectation, this is usually communicated via talking about limitations of the project.
+3. Detailed documentation handed over to the stakeholder to make the usage easier
+4. Knowledge transfer to someone in the team for future refreshes
+5. Established processes to get sign-offs at different stages of the project
+
+## stakeholder management in Recommendation
+1. Identified the issue and communicated the issue with a proposed solution to the project manager
+2. She assigned sometime to work on POC
+3. Chose one region where I tested the solution 
+4. tested it against the existing solution on historical data
+5. Showed the results to the manager and to the stakeholders with the KPIs where stakeholders were interested in like Sales qualified leads
+6. two points of selling, POC results and easier expansion to other regions. This eventually reduced the time of the analyst in identifying the most suitable customers
+
+
+## example of when you denied that something is not possible - 
+
+a. In mortgages, I denied that the model cannot predict in any other transition beside fixed to follow on.
+b. Limitation of UTEP as currently it cannot accommodate any machine learning module. 
+
+## Mentored another individual/group
+1. ADS
+2. organized 20+ sessions on machine learning and testing of hypothesis to on board the team 
+3. Helping different individuals to set up and use git, EDP, pyspark
+
+
+
+## Leadership
+1. Led two projects end to end(mortgages and cards) including requirement gathering, estimating work, stakeholder management, setting timelines and presenting deliverables to stakeholders and eventually wider teams
+2. Implemented agile practices to develop mortgage and cards model
+3. Persuaded cards to change the approach and tech stack to improve overall performance of the model
+4. Influenced, envisioned and pro actively developed developed first version of scenario planner
+5. Pro-actively presented and communicated LAGto various teams and people including monthly event
+
+## QA framework in barclys to support externlal client facing team
+
+QA framework: worked on generic quality and process framework. I was the main driver to build the execution side of the framework, detailing best practices in the data analysis projects  to ensure quality of the deliverables. 
+There were three parts to it, 
+			1. To have peer review on the finished product an analyst has produced. I performed a couple of peer reviews by myself too.
+			2. To ensure the quality of data, identify and detect discrepancies in data at source. I collaborated with Execution team to create framework to ensure quality in input data which will eventually mitigate quality issues and discrepancies in final product.
+			3. Encourage the developers/analysts to write the tests from day 1, this was done with final goal to make the role redundant in the future.
+
+## Smart start, money mentors, switcher campaign,  Lookalike 
+
+There are two main areas where retail segment concentrated, acquiring more customers and managing  existing customers by engaging with them efficiently
+Below two propositions comes under manage objective where we try to engage with existing customers better
+
+=> Smart start was a proposition targeting kids in the age range of 5-16 with two objectives in mind, first giving kids some financial independence and two inculcating good saving habits in them. My objective was to identify customers who will be interested in the proposition
+=> Second proposition namely money mentors was a proactive step towards giving community customers a platform to share their financial issues and get appropriate advice. 
+** I helped the team to expand the customer base by identifying similar customers who will be interested in the proposition  
+** analyze the behavior of customers who visited money mentors to understand the impact of MM. 
+** I analyzed customer behavior on different KPIs like savings, number of products, engagement score, attrition rate, revenue generated for barclays etc. ** Also created a control group of similar customers on three criteria s (hierarchical)
+				1. customer living in 15 km of radius where MM was conducted
+				2. active in branch at the branch at the same time
+				3. age group
+
+The above two propositions became an inspiration for Lookalike model, in both the use cases, the main objective was to expand customer base based on an existing set of audience. This led to creating a generalized and scalable model which can identify similar customers who will be interested in a specific proposition. LAG was also applied to challenger banks where customers were opting for banks like monzo, revolut, starlings over barclays for different services. We create d a lookalike audience who were exhibiting the same behavior as those who were using services from challenger banks and helped us to intervene before the customers left the bank.
+
+## Scenario planner and customer strategy - Develop a long term strategy for targeting customer groups, rather than sticking to a 1 years plan, stakeholders were interested in a strategy that will be applicable at for least 5 years.
+ Product/Model: 1. Rule based segmentation of existing customers based on age groups, Income and engagement level.
+				2. Simulation of above segments in next five years using LTV model.
+
+ I contributed in different ways to the team: i) Enriched the segmentation piece by integrating it with various datasets by collaborating with different teams.
+										     ii) Developed back end of the tableau dashboard used by stakeholders for targeting and day to day decision making activities (tactical decision making)
+										     iii) Enriched simulations by developing an interactive and dynamic dashboard with ability to feed in scenario from users.
