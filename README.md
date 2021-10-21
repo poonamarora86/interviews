@@ -122,6 +122,5 @@ DS team was invited to help increase the upsell
 
 1. We reached 3.4% upsell in our 2nd DS based marketing event
 2. This led the team a automated pipeline which will feed into the marketing databse with most eleigible population
-3. In future, we will be genralising the pipeline for multiple use cases
-
+3. In future, we will be generalising the pipeline for multiple use cases
 
