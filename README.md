@@ -191,3 +191,154 @@ The above two propositions became an inspiration for Lookalike model, in both th
  I contributed in different ways to the team: i) Enriched the segmentation piece by integrating it with various datasets by collaborating with different teams.
 										     ii) Developed back end of the tableau dashboard used by stakeholders for targeting and day to day decision making activities (tactical decision making)
 										     iii) Enriched simulations by developing an interactive and dynamic dashboard with ability to feed in scenario from users.
+										     
+										     
+## Natwest C11 Interview prep
+Improved Innovator: Development of ranking gen
+Situation: After having an understanding of current excel based NIm tool, we wanted to upgrade it due to issues like, time, efficiency, scalanility and concurrent usage
+
+a. Not easily scalable or flexible to accommodate new initiatives or range augmentations. 
+b. Does not support ongoing use of advanced pricing models/optimisation
+c. No integration of elasticity/behavioral/financial models
+d. Relies on manual data inputs. i.e. recent trading / defaqto data
+
+Task: Develop a tool which could solve the mentioned issues ensuring no/minimal disruption in their current way of working
+
+Action: 1. Re-defining the problem and modularised the tasks
+2. Created a template which is consistent for all modules having details like what the module entails, how data will be populated, what other modules will it contribute to, what module can act as a pre-requisite, peer reviews, functional tests  etc
+3. We divided the tasks among oursleves and I started working on the core part of the problem called ranking generator which is essenatially a search engine, it sifts through product data and find out all eligible products w.r.t a search criteria and further ranks them based on different KPIs like true cost, monthly payments with or without fees etc
+4. Ensured that development shd be done in such a manner that module can be integrated with other modules as well as can be used standalone. This not only helped with development but also made it easier to do updates or have additional functionalities
+5. It also helped with testing
+
+Result: 1. User experience: Since the product has been deployed in their existing user interface(excel based tool), it was very well received
+2. Users just need to onboard onto VCSe which was one time task
+3. time: Time taken to run the comp tables has reduced drastically as its much faster in python along with it caches teh data which helps with quick rendering
+4. Pricing managers are saving 1 hour per scenario which can be very critical in stringent deadlines.
+5. We were able to update the codebase for a certain range of products within 2 days which usually took 1-2 weeks for development
+
+
+
+
+Change Ready: backbook implementation
+Situation: After deploying the 2 of the core modules of Nim tool, we decided to develop and deploy  back book implementation first before the rest of the modules as we found it could generate more value for the team in near future
+Task: Develop and shape the tool by giving back book pricing a priority without making too much chnage on core functionality 
+Action: 1. Define the requirements by determining the differences between front book and back book
+		2. Create a user friendly  schema which will be flexible enough for the pricing mangers to add/update/delete the different pricing details
+		3. Actual development of the functionality by minimizing any changes to the existing tool
+		4. Peer reviewed and functional test included
+		5. Also used an existing module which flags business violations for every change made by pricing managers
+		6. Modifying the code so that it could be delivered such that it can be used by a excel macro
+		7. Collaborated with a senior pricing manager to showcase the functionality on timely basis so that the business requirements are take care of
+Result: We are estimating that this will reduce pricing managers time by at least 1 hour per scenario
+
+Connected: Presentation to different audience 
+Situation: We developed core functionalities for tool along with 2 of the modules went into regular usage, I realised this will be the best time to showcase the functionality to wider audience which included pricing CoE, DnA, FMA and pricing innovation team.
+Task: 
+Action:
+Result:
+
+
+Critical Thinker: Improving the development process by setting up CI/CD pipelines for other projects
+Situation:  After working extensively on development of Nim Tool, I collated my thoughts on drawbacks/limitation and mistakes we did while developing the tool and realsied few things should be thought before rather than as a postmortem, one of them was creating CI/CD pipelines
+Task: Objective was to implement learnings from Nim tool development to new projects
+Action: 1. Started getting involved in initial phases of other projects and created set ups for other team memebrs
+2. Encourange them to use CI/CD pipelines, create pull request so that everythihg we do follows due process
+3. Encouraged them to write a basic document for all products and keep documenting alongside rather than at the end
+4. Encouraged them to think and write tests to ensure the quality of development
+5. Encourage them to use tools like Jira, gitlab, conflunce efficently (for example: not to push any data fileson git or code outputs in notebooks, create regular tickets and update their stages etc)
+Result: Team is now following due process and inclines towards test driven development.
+
+
+
+
+connected and trusted advisor
+
+Trusted Advisor: Git/Python training sessions
+Situation: 1. Optimisation vertical was new
+2. past experience with earnix were not great as they didn't  deliver anything after 3 years for mortgages
+
+remo vs excu
+The function automatically pulls key competitors’ retention and new business rates into a report that compares it against our current or proposed rates.
+This is used in pricing papers and packs for execs to justify our average front and back book diffs by showing this benchmarked against key competitors.
+
+
+After staying in the team for a quarter, I realised that there is some interest and curiosity in the team about tech stack and I realised that we can build trust if users (stakeholders) feel comfortable with tech stack being used and reasons for our choices
+Task: Knowledge sharing + build trust so that stakeholders are comfortable with what we do 
+Action: 1. Documented instructions on set up, 1 group session and multiple 1:1 for set up	
+2. Prepared 2 days worth of material on Python coding with some real life examples and conducted full day training with hands on 
+Result: 1. Training was very well received in general
+2. one of the pricing manager was able to upskill and contribute to Nim tool by developing a whole module end to end (its in usage too) as well as Loans (generate)
+3. Another pricing managers from mortgages is using small functionality of python on regular basis and is empowered to make changes at realtime
+
+
+Side of the desk
+connected: 
+add more examples 
+
+
+
+
+task:  initiative 
+
+during last year there are few tasks I accomlished 
+
+Collective impact 
+trust build up
+Made their journeys easier
+they feel comfortable with directly coming to me, now we discuss and I bring those requirements to development team and bring them on our development pipelines
+and we are adding 
+
+Industry knowledge
+Team city, integration, testing 
+refactroing
+
+we are moving fast, we are making products, 
+
+
+Different ideas or opinions - recommendation
+Working on blackbox 
+bringing people on board
+
+Actions
+Spoke to different teams, added their problesm and issues in advance before 
+Stakeholder mapping
+teams were apprehensive
+add that why
+
+applied 20% on the population ML 
+
+
+Customer centric angle - 
+speed to markets changes and 
+speed to implementation, 
+customer centric, 
+life of pricing managers easier
+
+
+knowledge, experience and why this role is 
+
+technical acumen - 
+commercial skills I upskilled, 
+pcf
+
+
+Risk
+
+1. I have been really vigilant about risk from day 1, for my first task of helping with exploring the possibility of granular segmentation of bb customers, I ensured to go through the due process  while accessing the data.
+2. I follow bank wide guidelines for using CI/CD platforms for consistency
+3. While using gitlab, I ensure that no data has been committed along with notebooks outputs 
+4. if there is some sample data being used for testing, I ensure to encrypt it or remove anything PII (personal identifiable information) from it
+5. Currently I am migrating an app on PCF, though we are using an existing space (which is goverance ensured), I am engaging with DWS team to understand teh governnace process so we are ready for the future deployments.
+
+
+Modelling experience
+
+
+
+
+
+
+
+
+
+
