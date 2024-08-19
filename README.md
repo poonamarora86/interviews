@@ -15,13 +15,13 @@
 	f. Work with leadership to build a culture of bias for action, get things done and work with stakeholders.
 
 
-**Experience you have- help you succeed in this role**![image](https://github.com/user-attachments/assets/997be05a-40f0-40c0-93cd-5dcb09b77059)
+**Experience you have- help you succeed in this role**
 
 I have a decade of experience in data science, data engineering etc. I have also gained understanding of software development, best practices etc. I am scaling my impact by taking more technical leadership role and multiplying my expertise by leading multiple teams, mentoring other data engineers, data scientists and developers. My expertise also helps me to be glue between different organizations, stakeholders and my teams by becoming unblocking agent for them, translating ambiguous business problems into concrete technical projects with plans and processes.
 
-Role will give me confidence and authority to do my duties more efficiently in the projects
+This will give me confidence and authority to do my duties more efficiently in the projects  
 New joiner journey - ensuring their 
-![image](https://github.com/user-attachments/assets/3f423eba-5b6d-4c5c-bded-dc43c22476fe)
+
 
 
 **Improved Innovator - Range Checker**
