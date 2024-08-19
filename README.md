@@ -1,5 +1,9 @@
 **Motivation and fit**
 	1. What brings you to office
+ 		* Freedom of opinion
+   		* Collaborative workplace
+     		* Value generated from what I do
+       
 	2. How Help people - colleagues, customer, commercial
 
 	a. Customer first philosophy - change operating model towards building with customers vs building for customer. Make sure stakeholders are part of your development teams and have direct feedback channel. Agile, iterative, fail-fast etc. 
@@ -8,9 +12,10 @@
 	d. Build culture of knowledge sharing within the team. Run lunch and learn sessions, encourage out of the box ideas, run team hackathons etc.
 	e. Working with stakeholders to find where tech and data can improve NatWest's competitive position and thus finding new problems to solve.
 	f. Work with leadership to build a culture of bias for action, get things done and work with stakeholders.
-![image](https://github.com/user-attachments/assets/52e028e2-24d5-4615-ad0f-7035c13205b8)
+
 
 **Experience you have- help you succeed in this role**![image](https://github.com/user-attachments/assets/997be05a-40f0-40c0-93cd-5dcb09b77059)
+
 I have a decade of experience in data science, data engineering etc. I have also gained understanding of software development, best practices etc. I am scaling my impact by taking more technical leadership role and multiplying my expertise by leading multiple teams, mentoring other data engineers, data scientists and developers. My expertise also helps me to be glue between different organizations, stakeholders and my teams by becoming unblocking agent for them, translating ambiguous business problems into concrete technical projects with plans and processes.
 
 Role will give me confidence and authority to do my duties more efficiently in the projects
