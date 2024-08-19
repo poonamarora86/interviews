@@ -3,7 +3,8 @@
 	1. What brings you to office  
  		* Freedom of opinion  
    		* Collaborative workplace  
-     		* Value generated from what I do  
+     		* Value generated from what I do 
+       		* Team is very diverse in nature which makes this role very relevant to bridge the gaps between sdifferent skillset and expertise and how can we bring value  by bringing them together
        
 	2. How Help people - colleagues, customer, commercial
 
