@@ -139,7 +139,6 @@ In this situation, my critical thinking made sure that user experience improves 
 
 **Situation**
 
-Position yourself as trusted advisor
 In the loan optimizer AWS platformization, one of the key feature ask from the stakeholders were to create folder structure for the scenarios. Existing system already had a tagging feature, which is similar to what they were asking but less user friendly when number of scenarios are large. 
 
 **Task**
