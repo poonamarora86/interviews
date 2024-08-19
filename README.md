@@ -155,6 +155,7 @@ I ensured that stakeholders are looped in all stages of the development to ensur
 
 At the end, my campaign to champion the stakeholder feature ask with external team and making sure that we are building the most general version of the ask vs special casing it, helped stakeholders build trust in me and transitively in our tech team. Also, having built this feature in the core framework, makes it available to all projects not only just to optimization ones. 
 
+**********************************************************************************************************************************
 
 
 ## Innvoation, Proactiveness, Idea generation, Technological mindset
