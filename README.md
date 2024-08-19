@@ -87,10 +87,10 @@ I also made sure that everyone agrees on strategic solution and prioritise in th
 **Result**
 
 Impact was four fold:
-	1. I found a way getting ourselves unblocked with tactical solution that all these orgs agree on as well as satisfy data governance requirements - thus avoiding waiting for 6 months for FM&A team to be ready.
-	2. Technical solution that I proposed and PDF team implemented ensured that data lag is maximum an hour. 
-	3. Solution ensured a good end user experience with satisfying all control and data governance requirements. 
-	4. All these teams now have a shared understanding of what it takes to productionize end to end pipeline, model and data - thus having a path for strategic solution and having commitments from the relevant teams to move there.
+	1. I found a way getting ourselves unblocked with tactical solution that all these orgs agree on as well as satisfy data governance requirements - thus avoiding waiting for 6 months for FM&A team to be ready.  
+	2. Technical solution that I proposed and PDF team implemented ensured that data lag is maximum an hour.   
+	3. Solution ensured a good end user experience with satisfying all control and data governance requirements.   
+	4. All these teams now have a shared understanding of what it takes to productionize end to end pipeline, model and data - thus having a path for strategic solution and having commitments from the relevant teams to move there.  
 
 **********************************************************************************************************************************
 
