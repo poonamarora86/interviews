@@ -1,8 +1,9 @@
-**Motivation and fit**
-	1. What brings you to office
- 		* Freedom of opinion
-   		* Collaborative workplace
-     		* Value generated from what I do
+**Motivation and fit**  
+
+	1. What brings you to office  
+ 		* Freedom of opinion  
+   		* Collaborative workplace  
+     		* Value generated from what I do  
        
 	2. How Help people - colleagues, customer, commercial
 
