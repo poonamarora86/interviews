@@ -6,15 +6,15 @@
 * Collaborative workplace  
 * Value generated from what I do 
 * Team is very diverse in nature which makes this role very relevant to bridge the gaps between sdifferent skillset and expertise and how can we bring value  by bringing them together
-       
-	2. How Help people - colleagues, customer, commercial
 
-	a. Customer first philosophy - change operating model towards building with customers vs building for customer. Make sure stakeholders are part of your development teams and have direct feedback channel. Agile, iterative, fail-fast etc. 
-	b. Futureproofing - always think about wide application of your solution. Design generic solutions that can be reused across various business verticals such as loans, mortgages, savings and cards. 
-	c. I would spend time on thinking about creating generic strategies for platforms - find components that can become core for various products. Then build product or domain specific layer on top of it. 
-	d. Build culture of knowledge sharing within the team. Run lunch and learn sessions, encourage out of the box ideas, run team hackathons etc.
-	e. Working with stakeholders to find where tech and data can improve NatWest's competitive position and thus finding new problems to solve.
-	f. Work with leadership to build a culture of bias for action, get things done and work with stakeholders.
+**How Help people - colleagues, customer, commercial**
+
+* Customer first philosophy - change operating model towards building with customers vs building for customer. Make sure stakeholders are part of your development teams and have direct feedback channel. Agile, iterative, fail-fast etc.
+* Futureproofing - always think about wide application of your solution. Design generic solutions that can be reused across various business verticals such as loans, mortgages, savings and cards.
+* I would spend time on thinking about creating generic strategies for platforms - find components that can become core for various products. Then build product or domain specific layer on top of it.
+* Build culture of knowledge sharing within the team. Run lunch and learn sessions, encourage out of the box ideas, run team hackathons etc.
+* Working with stakeholders to find where tech and data can improve NatWest's competitive position and thus finding new problems to solve.
+* Work with leadership to build a culture of bias for action, get things done and work with stakeholders.
 
 **********************************************************************************************************************************
 
