@@ -58,8 +58,8 @@ Our solution was immediately adopted by pricing managers, reducing their manual 
 Collectively we have saved days' worth of work each month for pricing managers for each pricing proposal. As a result of this improvement, we gained trust from pricing managers and that we can leverage in the migration of whole optimiser to AWS and browser based user experience.
 
 
-**Connected (Example 1) - Customer data migration to production for Loans
-**
+**Connected (Example 1) - Customer data migration to production for Loans**
+
 **Situation**: 
 Last year, as part of a strategic initiative, we migrated our loan optimizer to AWS infrastructure. One existential blocker of this project was that customer data that is critical for optimizer wasn't productionized so it was not possible for end users to use the optimizer application. 
 
@@ -89,9 +89,8 @@ Impact was four fold:
 	3. Solution ensured a good end user experience with satisfying all control and data governance requirements. 
 	4. All these teams now have a shared understanding of what it takes to productionize end to end pipeline, model and data - thus having a path for strategic solution and having commitments from the relevant teams to move there.
 
-**
-Change Ready - Tech leadership role 
-**
+**Change Ready - Tech leadership role**
+
 **Situation**: Me along with 2 backend developers and 1 front end developer were tasked to deploy load optimizer to AWS infrastructure. This was the first time we were doing client/server deployment with browser based UI component. Our job was to deploy serve to Kepler and client to PCF. This was a strategic initiative to migrate to cloud for ease of scaling, improving efficiency and improving our readiness for better data governance and controls. 
 
 **Task**: My task was to lead the team to build the system end to end with server deployment on Kepler, client on PCF and snowflake as data backend.
@@ -128,7 +127,6 @@ I then worked to build a solution, in which tactical solution becomes the first 
 In this situation, my critical thinking made sure that user experience improves by providing them tactical solution but at same time addressed the concern of not wasting time by designing it to be reusable in the strategic solution.
 
 **Trusted Advisor**
-
 
 **Situation**
 
