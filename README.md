@@ -15,6 +15,7 @@
 	e. Working with stakeholders to find where tech and data can improve NatWest's competitive position and thus finding new problems to solve.
 	f. Work with leadership to build a culture of bias for action, get things done and work with stakeholders.
 
+**********************************************************************************************************************************
 
 **Experience you have- help you succeed in this role**
 
@@ -23,6 +24,7 @@ I have a decade of experience in data science, data engineering etc. I have also
 This will give me confidence and authority to do my duties more efficiently in the projects  
 New joiner journey - ensuring their 
 
+**********************************************************************************************************************************
 
 
 **Improved Innovator - Range Checker**
@@ -57,6 +59,7 @@ Our solution was immediately adopted by pricing managers, reducing their manual 
 
 Collectively we have saved days' worth of work each month for pricing managers for each pricing proposal. As a result of this improvement, we gained trust from pricing managers and that we can leverage in the migration of whole optimiser to AWS and browser based user experience.
 
+**********************************************************************************************************************************
 
 **Connected (Example 1) - Customer data migration to production for Loans**
 
@@ -89,6 +92,8 @@ Impact was four fold:
 	3. Solution ensured a good end user experience with satisfying all control and data governance requirements. 
 	4. All these teams now have a shared understanding of what it takes to productionize end to end pipeline, model and data - thus having a path for strategic solution and having commitments from the relevant teams to move there.
 
+**********************************************************************************************************************************
+
 **Change Ready - Tech leadership role**
 
 **Situation**: Me along with 2 backend developers and 1 front end developer were tasked to deploy load optimizer to AWS infrastructure. This was the first time we were doing client/server deployment with browser based UI component. Our job was to deploy serve to Kepler and client to PCF. This was a strategic initiative to migrate to cloud for ease of scaling, improving efficiency and improving our readiness for better data governance and controls. 
@@ -102,6 +107,8 @@ Once I had built the understanding, I designed the system with AWS architect and
 
 **Result**: 
 I led a team that built and deployed client/server architecture for the first time in AWS, thus drastically improving scalability story of the optimiser as well as speeding up the process by order of magnitude. e.g. some jobs take 4-5 hours on existing solution vs it takes 30-45 minutes on AWS infra with drastically improving user experience.
+
+**********************************************************************************************************************************
 
 **Critical Thinker/Difference in opinion - Ranking generator**
 
@@ -125,6 +132,8 @@ I then worked to build a solution, in which tactical solution becomes the first 
 **Result**
 
 In this situation, my critical thinking made sure that user experience improves by providing them tactical solution but at same time addressed the concern of not wasting time by designing it to be reusable in the strategic solution.
+
+**********************************************************************************************************************************
 
 **Trusted Advisor**
 
