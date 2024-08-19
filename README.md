@@ -1,3 +1,130 @@
+**Improved Innovator - Range Checker**
+
+**Situation**: After every pricing proposal, pricing managers need to ensure that the proposed prices do not violate any pricing rules. A simple example being, 60% LTV should be cheaper than products with higher LTV, green should be cheaper than core products etc. Traditionally at the end of proposal, this was done manually by pricing managers, it was time consuming, cumbersome and error prone.
+
+**Task**:  
+My task was to design and develop an automated checker for pricing proposals that removes manual efforts from pricing managers and thus reduce any chances of errors.
+
+
+**Actions**
+
+I conceptualized the idea, validated design with stakeholders and helped prioritise the project within our org. I led the project from conception to delivery, led and mentored a pricing manager and upskilled them in software development, with python as a language. 
+
+I worked with all stakeholders to gather the requirement, define the project scope and led the execution. I broken down the project into multiple milestones, each of those was designed to be working end solution - adding direct value to pricing managers. 
+
+For example, I designed the solution in a way that it separates core logic from presentation, so in the first milestone we could deploy it on existing Excel tool of the pricing managers, making adoption straight forward and gaining trust from them.
+
+I designed solution with future requirements in mind e.g. it can easily accommodate changing rules as well as adding custom new rules. 
+
+I ran project with best practices of software development such as modularising the codebase to make it easy to be deployed to our AWS infrastructure and  easy to debug, led by example to have good test coverage from get go, set up continuous integration to make feedback loops smaller etc. Also ensured that stakeholders are always looped in in every stage of the project.
+
+I am working with the team on Mortgage optimiser on AWS and this is embedded as an integral part of the solution, we are going live in 2 weeks. It allows users to see the violations on the UI for them to make changes to it
+
+I am also designing to make it configurable by the users via UI meaning the users can change the rules easily on the UI and Optimiser will dynamically create pricing for derived products after optimising the core products.
+
+	
+
+**Result**: 
+
+Our solution was immediately adopted by pricing managers, reducing their manual work from several hours to two seconds with ability to add new rules and customize existing easily. Also improved user experience to get all violations in one place, making them easy to incrementally fix one by one - saving another several hours of debugging and testing from their side. 
+
+Collectively we have saved days' worth of work each month for pricing managers for each pricing proposal. As a result of this improvement, we gained trust from pricing managers and that we can leverage in the migration of whole optimiser to AWS and browser based user experience.
+
+
+**Connected (Example 1) - Customer data migration to production for Loans
+**
+**Situation**: 
+Last year, as part of a strategic initiative, we migrated our loan optimizer to AWS infrastructure. One existential blocker of this project was that customer data that is critical for optimizer wasn't productionized so it was not possible for end users to use the optimizer application. 
+
+**Task**: 
+We needed to build a data pipeline to identify, collate and transform the customer data required for the optimizer. Ensure that data is pulled into the systems in near real time into a production system, also avoiding noticeable lag between dev data and production data, improving user experience for our pricing managers.
+
+This was a pretty ambigous problem with dependency on multiple organizations such as D&A who owns the elasticity model, FMA who owns profitability model and PDF org who owns the data pipeline. 
+
+
+**Action**:
+My job was to orchestrate a solution by coordinating with all these 3 orgs and come up with solution that satisfies data governance requirements, analysing trade off of perfect solution against committed timelines. 
+
+I first identified the customer data required for optimizer, worked with different teams to find out current state of different parts of the models and data and their readiness to move it to production. 
+
+Built a shared understanding between all these 3 teams about what it takes to bring all of these models and data to production - identifying biggest blocker as FM&A model which required 6 months to productionize. 
+
+Trade off slipping timeline was big. I then worked to identify a tactical solution that satisfy our data governance requirements. Proposed and got agreement on that solution with PDF team to move only part of the data to production to unblock ourselves. 
+
+I also made sure that everyone agrees on strategic solution and prioritise in their respective teams.
+
+
+**Result**
+
+Impact was four fold:
+	1. I found a way getting ourselves unblocked with tactical solution that all these orgs agree on as well as satisfy data governance requirements - thus avoiding waiting for 6 months for FM&A team to be ready.
+	2. Technical solution that I proposed and PDF team implemented ensured that data lag is maximum an hour. 
+	3. Solution ensured a good end user experience with satisfying all control and data governance requirements. 
+	4. All these teams now have a shared understanding of what it takes to productionize end to end pipeline, model and data - thus having a path for strategic solution and having commitments from the relevant teams to move there.
+
+**
+Change Ready - Tech leadership role 
+**
+**Situation**: Me along with 2 backend developers and 1 front end developer were tasked to deploy load optimizer to AWS infrastructure. This was the first time we were doing client/server deployment with browser based UI component. Our job was to deploy serve to Kepler and client to PCF. This was a strategic initiative to migrate to cloud for ease of scaling, improving efficiency and improving our readiness for better data governance and controls. 
+
+**Task**: My task was to lead the team to build the system end to end with server deployment on Kepler, client on PCF and snowflake as data backend.
+
+**Action**:
+Given this was the first time we were building this kind of architecture, there was no path to follow or learn from. I quickly assumed leadership role, spent time on understanding different components in infrastructure such as Kepler, Snowflake, PCF etc. I digged deep into governance structure, networking details between Kepler and Snowflake. 
+
+Once I had built the understanding, I designed the system with AWS architect and distributed the work amongst other developers. I prepared a project plan with dates, and made sure we are making progress towards it. I became the multiplying agent for the team, helping them with external dependencies, hard blockers and communicating upwards about the progress. I also owned stakeholder engagement end to end, providing timely demos to stakeholders making sure we have feedback loops with them.
+
+**Result**: 
+I led a team that built and deployed client/server architecture for the first time in AWS, thus drastically improving scalability story of the optimiser as well as speeding up the process by order of magnitude. e.g. some jobs take 4-5 hours on existing solution vs it takes 30-45 minutes on AWS infra with drastically improving user experience.
+
+**Critical Thinker/Difference in opinion - Ranking generator**
+
+**Situation**: 
+
+When I joined mortgages for the first time, pricing managers were using a very suboptimal search and rank feature via the excel tool. These features were painfully slow. I identified an improvement and solution to this, that is, a python based solution to cache the search results and only run ranking on it. 
+
+When I proposed the idea, it was challenged being too tactical.  
+
+**Task**: 
+Whilst, I agreed that we need a more strategic solution, I strongly believed stakeholders shouldn't put up with bad user experience until perfect strategic solution lands - which could take months. 
+
+This was a living example of "Perfect being enemy of good".
+
+**Action**:
+
+Different of opinion came from my line and project manager. I decided to workshop and brainstorm with him to understand his position better. After a several discussions, I gathered that he is more concerned about we wasting our resources on tactical solution which could have spent on the more strategic solution instead. I challenged that these two things doesn't need to be mutually exclusive.
+
+I then worked to build a solution, in which tactical solution becomes the first milestone of the strategic solution. Created a design that reuses tactical solution components in strategic solution thus, efforts are not wasted on tactical solution. I made sure solution is modularised and can be plugged into different platforms such as excel as well as AWS.
+
+**Result**
+
+In this situation, my critical thinking made sure that user experience improves by providing them tactical solution but at same time addressed the concern of not wasting time by designing it to be reusable in the strategic solution.
+
+**Trusted Advisor**
+
+
+**Situation**
+
+Position yourself as trusted advisor
+In the loan optimizer AWS platformization, one of the key feature ask from the stakeholders were to create folder structure for the scenarios. Existing system already had a tagging feature, which is similar to what they were asking but less user friendly when number of scenarios are large. 
+
+**Task**
+
+Advocate the stakeholder ask in the UI core framework team (PCF) - ensure that this ask is not specialized for loans and applicable for all other optimization solutions.
+
+**Action**
+
+I worked with stakeholders to understand reasoning behind the fold structure. When I understood the ask, I built a plan to introduce it in our core UI framework. I built a case for a feature request by providing detailed reasoning around why tagging feature is not a replacement for the folder structure and how folder structure improves efficiency and user experience of the pricing managers. 
+
+I ensured that stakeholders are looped in all stages of the development to ensure we are building it in the right way. I also demo 'ed the feature to stakeholders in early stages, gathered feedback and looped that back to UI core team. I also made sure that I demo feature in context of other business verticals to ensure feature is built for right level of reuse in mind and it's usable in all the business contexts.
+
+**Result**
+
+At the end, my campaign to champion the stakeholder feature ask with external team and making sure that we are building the most general version of the ask vs special casing it, helped stakeholders build trust in me and transitively in our tech team. Also, having built this feature in the core framework, makes it available to all projects not only just to optimization ones. 
+![image](https://github.com/user-attachments/assets/921acc99-e4ab-4792-953e-0f76ca51bc45)
+
+
+
 ## Innvoation, Proactiveness, Idea generation, Technological mindset
 
 ### Cisco recommedendation engine
